@@ -15,10 +15,14 @@
     </header>
     <main class="container mx-auto">
         <!-- Search box -->
-        <section class="bg-gray-100">
-            <input id="search-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs my-3 ms-5" />
-            <button onclick="handleSearch()" id="searchBtn" class="btn btn-accent">Search</button>
+        <section class="bg-gray-100 ">
+            <input id="search-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs my-3 ms-5 " />
+            <button onclick="handleSearch()" id="searchBtn" class="btn btn-accent  ">Search</button>
         </section>
+        <!-- spinner or loader -->
+        <div id="loading-spinner" class="text-center my-40 hidden">
+            <span class="loading loading-spinner text-warning "></span>
+        </div>
          <!-- Search box -->
         <div id="phone-container" class="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
          
